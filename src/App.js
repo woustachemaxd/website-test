@@ -22,9 +22,17 @@ function App() {
   }, []);
 
   return (
-    <div className="App flex flex-col items-center justify-center h-screen">
-      <h1 className="text-[100px] font-bold text-[#628395]">Random Joke</h1>
-      <p className="text-[#070707] font-bold text-[30px]">{joke}</p>
+    <div className="App flex flex-col items-center justify-center h-screen bg-[#ceff1a]">
+      <h1 className="text-[100px] font-bold text-[#39afe5]">Random Joke</h1>
+      <p className="text-[#070707] font-bold text-[25]">{joke}</p>
+      <button
+        className="p-[10px] m-[20px] rounded-lg w-[100px] font-semibold border-2 border-black bg-[#fbfbff] text-[#070707]"
+        onClick={async () => {
+          setJoke(await fetchRandomJoke());
+        }}
+      >
+        NEW
+      </button>
     </div>
   );
 }
