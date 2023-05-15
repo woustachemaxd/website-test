@@ -5,10 +5,10 @@
 
 @font-face {
     font-family: "OffBit-dot-bold";
-    src: url("%PUBLIC_URL%/font/OffBit-DotBold.ttf") format('truetype')
+    src: url("./font/OffBit-DotBold.ttf") format('truetype')
   }
 
   @font-face {
     font-family: "OffBit-dot-normal";
-    src: url("%PUBLIC_URL%/font/OffBit-Dot.ttf") format('truetype')
+    src: url("./font/OffBit-Dot.ttf") format('truetype')
   }
