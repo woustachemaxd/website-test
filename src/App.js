@@ -25,7 +25,7 @@ function App() {
   if (!isPC) {
     return (
       <div className="bg-black w-screen h-screen">
-        <p className="font-offBitDotNormal text-center text-white">
+        <p className="p-[70px] font-offBitDotNormal text-center text-white text-[14px]">
           Please use a PC to view this content.
         </p>
       </div>
