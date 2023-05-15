@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function App() {
   const [joke, setJoke] = useState("");
+  const [isPC, setIsPC] = useState(true);
 
   async function fetchRandomJoke() {
     const response = await fetch("https://icanhazdadjoke.com/", {
@@ -17,7 +18,19 @@ function App() {
       setJoke(joke);
     }
     loadRandomJoke();
+    const userAgent = window.navigator.userAgent;
+    setIsPC(userAgent.includes("Windows") || userAgent.includes("Macintosh"));
   }, []);
+
+  if (!isPC) {
+    return (
+      <div className="bg-black w-screen h-screen">
+        <p className="font-offBitDotNormal text-center text-white">
+          Please use a PC to view this content.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="App flex flex-col items-center justify-center h-screen bg-[#000000] selection:bg-[#070707] selection:text-[#fbfbff]">
