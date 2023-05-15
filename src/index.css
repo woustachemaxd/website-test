@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "OffBit-dot-bold";
+    src: url("../public/font/OffBit-DotBold.ttf") format('truetype')
+  }
+
+  @font-face {
+    font-family: "OffBit-dot-normal";
+    src: url("../public/font/OffBit-Dot.ttf") format('truetype')
+  }
