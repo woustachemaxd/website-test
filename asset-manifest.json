@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.bdf052cf.css",
-    "main.js": "/static/js/main.07fa7164.js",
+    "main.css": "/static/css/main.b857faea.css",
+    "main.js": "/static/js/main.eb8011b7.js",
     "static/media/OffBit-DotBold.ttf": "/static/media/OffBit-DotBold.66d44c5209c0e9360baa.ttf",
     "static/media/OffBit-Dot.ttf": "/static/media/OffBit-Dot.9cd022824e9f6c244356.ttf",
     "index.html": "/index.html",
-    "main.bdf052cf.css.map": "/static/css/main.bdf052cf.css.map",
-    "main.07fa7164.js.map": "/static/js/main.07fa7164.js.map"
+    "main.b857faea.css.map": "/static/css/main.b857faea.css.map",
+    "main.eb8011b7.js.map": "/static/js/main.eb8011b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdf052cf.css",
-    "static/js/main.07fa7164.js"
+    "static/css/main.b857faea.css",
+    "static/js/main.eb8011b7.js"
   ]
 }
